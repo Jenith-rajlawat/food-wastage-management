@@ -7,6 +7,7 @@ import Home from "./components/pages/Home";
 import OurMission from "./components/pages/OurMission";
 import AboutUs from "./components/pages/AboutUs";
 import SignUp from "./components/pages/SignUp";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <OurMission />
         <AboutUs />
         <SignUp />
+        <Contact />
         <Routes>
           <Route exact path="/" component={Home} />
           <Route path="/ourmission" component={OurMission} />
