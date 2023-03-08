@@ -10,8 +10,13 @@ import SignUp from "./components/pages/SignUp";
 function App() {
   return (
     <>
+    
+    {/* <Donor/> */}
+   
+    
       <Router>
         <Navbar />
+        
 
         <Routes>
           <Route path="/" element={<Home />} />

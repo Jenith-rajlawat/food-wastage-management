@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import Chat from "./Chat";
 function Contact() {
   return (
     <div className="contact">
@@ -12,6 +13,7 @@ function Contact() {
       >
         GET IN TOUCH <i class="fa fa-envelope" aria-hidden="true"></i>
       </a>
+      <Chat />
     </div>
   );
 }
